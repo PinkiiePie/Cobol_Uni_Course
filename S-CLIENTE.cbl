@@ -1,0 +1,23 @@
+       01 CLIENT-DATA.
+            02 BLANK SCREEN.
+            02 LINE 01 COL 01 VALUE "******************************".
+            02 LINE 02 COL 05 VALUE "CADASTRO CLIENTE".
+            02 LINE 03 COL 02 VALUE "CPF: ".
+            02 LINE 03 COL 13 PIC Z(11) FROM WS-CCPF.
+            02 LINE 04 COL 02 VALUE "NOME: ".
+            02 LINE 04 COL 13 PIC X(50) FROM WS-CNOME.
+            02 LINE 06 COL 05 VALUE "ENDERECO".
+            02 LINE 07 COL 02 VALUE "CEP: ".
+            02 LINE 07 COL 13 PIC Z(8) FROM WS-CCEP.
+            02 LINE 08 COL 02 VALUE "RUA: ".
+            02 LINE 08 COL 13 PIC X(50) FROM WS-CRUA.
+            02 LINE 09 COL 02 VALUE "NUMERO: ".
+            02 LINE 09 COL 14 PIC Z(5) FROM WS-CNUM.
+            02 LINE 10 COL 02 VALUE "BAIRRO: ".
+            02 LINE 10 COL 13 PIC X(50) FROM WS-CBAI.
+            02 LINE 11 COL 02 VALUE "CIDADE: ".
+            02 LINE 11 COL 13 PIC X(50) FROM WS-CCID.
+            02 LINE 12 COL 02 VALUE "ESTADO: ".
+            02 LINE 12 COL 13 PIC X(2) FROM WS-CUF.
+            02 LINE 13 COL 02 VALUE "ALUGADO: ".
+            02 LINE 13 COL 13 PIC 9(3) FROM WS-FILME-ALUGADO.
